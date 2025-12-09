@@ -50,6 +50,7 @@ export default async function handler(req, res) {
     JSON ŞEMASI:
     {
       "score": (0-100 arası sayı. Dijital görünürlük ve algı skoru),
+      "scoreExplanation": (str. Skorun nedenini 1-2 cümlede açıkla),
       "identityAnalysis": {
         "claimedSector": (str),
         "detectedSector": (str),
